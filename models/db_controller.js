@@ -283,3 +283,4 @@ module.exports.edit_leave = function(id,name,leave_type,from,to,reason,callback)
     var query = "update leaves set employee='"+name+"',leave_type='"+leave_type+"',date_from='"+from+"',date_to='"+to+"',reason='"+reason+"' where id="+id;
     con.query(query,callback);
 }// Updated: 2026-03-27 08:54:45
+// Updated: 2026-03-27 08:54:45
