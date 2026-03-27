@@ -2,7 +2,7 @@
 
 A comprehensive, production-ready web-based hospital management system built with **Node.js**, **Express.js**, and **Supabase**. This application streamlines hospital operations including patient management, doctor scheduling, appointments, employee management, inventory, and more.
 
-**Author**: Shahid Afridi Zihad  
+**Author**: Biruk Habte
 **Version**: 1.0.0  
 **License**: ISC
 
