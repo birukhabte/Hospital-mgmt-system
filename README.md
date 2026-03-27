@@ -25,8 +25,6 @@ A comprehensive, production-ready web-based hospital management system built wit
 - [Models & Database](#models--database)
 - [Security Features](#security-features)
 - [Performance Optimization](#performance-optimization)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
 - [License](#license)
 
 ---
@@ -832,92 +830,7 @@ Manages inventory:
 
 ---
 
-## 🐛 Troubleshooting
-
-### Common Issues
-
-#### Issue: "Cannot connect to Supabase"
-**Solution**:
-1. Verify `SUPABASE_URL` and `SUPABASE_KEY` in `.env`
-2. Check internet connection
-3. Ensure Supabase project is active
-4. Run: `node database/tests/test-supabase-connection.js`
-
-#### Issue: "Email verification not working"
-**Solution**:
-1. Check email configuration in `.env`
-2. Verify Gmail app password is correct
-3. Check spam folder for verification email
-4. Ensure 2FA is enabled on Gmail account
-
-#### Issue: "Port 3000 already in use"
-**Solution**:
-```bash
-# Find process using port 3000
-lsof -i :3000
-
-# Kill the process
-kill -9 <PID>
-
-# Or use different port
-PORT=3001 npm start
-```
-
-#### Issue: "Database migration failed"
-**Solution**:
-1. Check database connection
-2. Verify SQL syntax in migration files
-3. Run migrations in correct order
-4. Check for existing tables
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Please follow these guidelines:
-
-### Steps to Contribute
-
-1. **Fork the Repository**
-   ```bash
-   git clone https://github.com/yourusername/Hospital-management-main.git
-   ```
-
-2. **Create Feature Branch**
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-
-3. **Make Changes**
-   - Follow existing code style
-   - Add comments for complex logic
-   - Test your changes
-
-4. **Commit Changes**
-   ```bash
-   git commit -m "Add AmazingFeature: description"
-   ```
-
-5. **Push to Branch**
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-
-6. **Open Pull Request**
-   - Describe your changes
-   - Reference related issues
-   - Wait for review
-
-### Code Style Guidelines
-- Use camelCase for variables and functions
-- Use PascalCase for classes
-- Add JSDoc comments for functions
-- Keep functions focused and small
-- Use meaningful variable names
-
----
-
-## 📝 License
+## � License
 
 This project is licensed under the **ISC License** - see the LICENSE file for details.
 
@@ -933,40 +846,12 @@ and this permission notice appear in all copies.
 
 ---
 
-## 👨‍💻 Author
-
-**Shahid Afridi Zihad**
-- Email: shahid@hospital.com
-- GitHub: [@shahidafriadi](https://github.com)
-
----
-
-## 📞 Support & Contact
-
-For support, questions, or feedback:
-
-- **Email**: support@hospital.com
-- **Issues**: [GitHub Issues](https://github.com/yourusername/Hospital-management-main/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/Hospital-management-main/discussions)
-
----
-
 ## 🙏 Acknowledgments
 
 - Express.js community
 - Supabase team
 - Bootstrap framework
 - All contributors and users
-
----
-
-## 📊 Project Statistics
-
-- **Total Controllers**: 18
-- **Database Tables**: 11
-- **API Endpoints**: 50+
-- **Lines of Code**: 10,000+
-- **Test Coverage**: 85%
 
 ---
 
